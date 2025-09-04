@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+    width: 100%;
+}
+
+.container--app {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    gap: 40px;
+}
+
+.container--texto {
+    flex-direction: column;
+    text-align: center;
+    display: flex;
+    gap: 5px;
+}
+
+.container--texto h1 {
+    color: #013268;
+}
+
+.container--texto p {
+    color: #013268;
+    font-size: 16px;
+}
+
+.container--relogios {
+    justify-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    display: flex;
+    gap: 30px;
+}
+
+.relogio {
+    justify-content: space-between;
+    background-color: #013268;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 10px;
+    min-width: 250px;
+    max-width: 350px;
+    display: flex;
+    width: 30%;
+    gap: 30px;
+}
+
+.relogio h2 {
+    text-align: center;
+    max-width: 300px;
+    font-size: 20px;
+    color: white;
+    width: 100%;
+}
+
+#hora--relogio1, #hora--relogio2, #hora--relogio3 {
+    font-weight: 600;
+    font-size: 28px;
+    color: white;
+}
+
+.relogio select {
+    text-align: center;
+    color: #013268;
+    font-weight: 600;
+    cursor: pointer;
+    font-size: 16px;
+    outline: none;
+    border: none;
+    height: 30px;
+    width: 80%;
+}
