@@ -70,9 +70,9 @@
     width: 100%;
 }
 
-.relogio span {
+#hora--relogio1, #hora--relogio2, #hora--relogio3 {
     font-weight: 600;
-    font-size: 18px;
+    font-size: 28px;
     color: white;
 }
 
